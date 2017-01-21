@@ -20,7 +20,7 @@ Version  | Date | Comments
 ----------
 
 # Solution Settings #
-* In order to use this samples should install MongoDB instance and apply ncessary changes in appsettings.json
+* In order to use this samples should install MongoDB instance and apply necessary changes in appsettings.json
 
 * Review logging configuration in Startup.cs, as minimum log level or applying different settings based environment running into.
 
