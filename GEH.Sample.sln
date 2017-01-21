@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9C7BE19-542B-49ED-8194-F0CC9C13C44D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE98AD3D-70C6-41D0-94B7-C750D25CA67D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{477C4F3C-0AD2-4396-8ABA-11D250E604D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A83E6BE0-4033-4F01-8379-72D1CC5A8DC5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GEH.Infrastructure", "src\GEH.Infrastructure\GEH.Infrastructure.xproj", "{CF18FBB9-052E-4E8F-90DF-0DBBA501B3B8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GEH.Logging.Mongo", "src\GEH.Logging.Mongo\GEH.Logging.Mongo.xproj", "{69CB75F2-63F3-4316-9822-2F8A4CF449BA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GEH.Web.Api", "src\GEH.Web.Api\GEH.Web.Api.xproj", "{67CC9F66-900B-4BAD-965D-6142D8972515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF18FBB9-052E-4E8F-90DF-0DBBA501B3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF18FBB9-052E-4E8F-90DF-0DBBA501B3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF18FBB9-052E-4E8F-90DF-0DBBA501B3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF18FBB9-052E-4E8F-90DF-0DBBA501B3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CB75F2-63F3-4316-9822-2F8A4CF449BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CB75F2-63F3-4316-9822-2F8A4CF449BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CB75F2-63F3-4316-9822-2F8A4CF449BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CB75F2-63F3-4316-9822-2F8A4CF449BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CC9F66-900B-4BAD-965D-6142D8972515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CC9F66-900B-4BAD-965D-6142D8972515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CC9F66-900B-4BAD-965D-6142D8972515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CC9F66-900B-4BAD-965D-6142D8972515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{477C4F3C-0AD2-4396-8ABA-11D250E604D2} = {D9C7BE19-542B-49ED-8194-F0CC9C13C44D}
+		{A83E6BE0-4033-4F01-8379-72D1CC5A8DC5} = {D9C7BE19-542B-49ED-8194-F0CC9C13C44D}
+		{CF18FBB9-052E-4E8F-90DF-0DBBA501B3B8} = {A83E6BE0-4033-4F01-8379-72D1CC5A8DC5}
+		{69CB75F2-63F3-4316-9822-2F8A4CF449BA} = {A83E6BE0-4033-4F01-8379-72D1CC5A8DC5}
+		{67CC9F66-900B-4BAD-965D-6142D8972515} = {477C4F3C-0AD2-4396-8ABA-11D250E604D2}
+	EndGlobalSection
+EndGlobal
